@@ -11,7 +11,6 @@
 body{
      font-family: 'Montserrat', sans-serif;
      margin: 0;
-     margin-bottom:32px;
      padding: 0;
 }
 
@@ -204,4 +203,50 @@ border-radius: 16px;
     .plan-card-3 {
         margin: 8px 32px;
     }
+  }
+
+  .form-inline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  /* Style the submit button */
+.form-inline button {
+    padding: 10px 20px;
+    background-color:var(--secondary-color);
+    border: 1px solid #ddd;
+    color: white;
+  }
+  
+  .form-inline button:hover {
+    background-color: #323C4A;
+  }
+  
+  /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+  
+    .form-inline {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  footer{
+      text-align: center;
+      background-color: var(--primary-color);
+      margin-top: 32px;
+      padding: 40px;
   }

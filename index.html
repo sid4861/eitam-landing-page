@@ -14,7 +14,6 @@
 <body>
 
     <div class="jumbotron jumbotron-fluid">
-        <!-- <div class="container"> -->
         <img src="./Assets/logo.svg" class="header-logo" />
         <h1 class="brand-name">Etiam</h1>
         <p class="tag-line">Live audio meditation sessions right on your phone.</p>
@@ -22,7 +21,19 @@
             meditate daily given your busy routine when there’s no one to guide you. That’s why we made the <span
                 style="font-weight: bold; color: #4C5C71;">Etiam app</span>. Subscribe and start experiencing an oasis
             of calm and relaxation.</p>
-        <!-- </div> -->
+
+        <p class="jumbotron-content" style="color: #4C5C71; font-weight: 500;">
+            Ready to meditate? Enter your email to get a week's free trial
+        </p>
+        <form name="contact" class="form-inline" netlify>
+            <p>
+                <input type="email" name="email" placeholder="Email address" /></label>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </form>
+
     </div>
 
     <div class="container">
@@ -172,7 +183,19 @@ color: #4C5C71;">
 
     </div>
 
-
+    <footer>
+        <p class="jumbotron-content" style="color: #4C5C71; font-weight: 500;">
+            Ready to meditate? Enter your email to get a week's free trial
+        </p>
+        <form name="contact" class="form-inline" netlify>
+            <p>
+                <input type="email" name="email" placeholder="Email address" /></label>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </form>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
