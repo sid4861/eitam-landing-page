@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+
+:root{
+    --primary-color: #FFDD7F;
+    --secondary-color: #4C5C71;
+    --accent-color: #885913;
+}
+
+body{
+     font-family: 'Montserrat', sans-serif;
+     margin: 0;
+     margin-bottom:32px;
+}
+
+.jumbotron{
+    background-color: #FFDD7F;
+}
+
+.brand-name{
+    color: var(--secondary-color);
+    font-size: 96px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.tag-line{
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 393px;
+    text-align: center;
+    margin: 24px auto;
+    padding: 8px;
+}
+
+.jumbotron-content{
+    color: var(--accent-color);
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 793px;
+    text-align: center;
+    margin: 24px auto;
+    padding: 8px;
+}
+
+.header-logo{
+    display: block;
+    margin: 24px auto;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    background: #FFFFFF;
+    border: 1px solid #885913;
+    box-shadow: -2px -2px 20px 10px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    margin-right: 64px;
+}
+
+
+@media (max-width: 460px) {
+    .feature-card {
+        margin: 8px 32px;
+    }
+  }
+
+.feature-card-title{
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--secondary-color);
+    letter-spacing: 2%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.feature-card-content{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--accent-color);
+}
+
+.plans-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-top: 48px;
+}
+
+
+@media (max-width: 460px) {
+    .plans-title-container {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+  }
+
+.plans-title{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 32px;
+    color: var(--secondary-color);
+    letter-spacing: 0.02em;
+    margin:  16px auto;
+}
+
+.launching-text{
+    margin: 16px auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    color: var(--accent-color);
+    margin-top: 80px;
+
+}
+
+.plans-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 56px;
+}
+
+.plan-card-1{
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+background: #917FFF;
+border-radius: 16px;
+width: 306px;
+height: 250px;
+}
+
+@media (max-width: 460px) {
+    .plan-card-1 {
+        margin: 8px 32px;
+    }
+  }
+
+.plan-card-title{
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+
+.plan-card-price{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+.plan-card-description{
+    font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+margin-top: 40px;
+}
+
+.plan-card-2{
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+
+background: #FF7F9E;;
+border-radius: 16px;
+}
+
+@media (max-width: 460px) {
+    .plan-card-2 {
+        margin: 8px 32px;
+    }
+  }
+
+
+.plan-card-3{
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 306px;
+height: 250px;
+background: #7FC2FF;
+border-radius: 16px;
+}
+
+@media (max-width: 460px) {
+    .plan-card-3 {
+        margin: 8px 32px;
+    }
+  }
